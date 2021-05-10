@@ -1,6 +1,4 @@
-//SNACK 1
-//Crea un array di 10 oggetti che rappresentano una zucchina
-//indicando varietà, peso e lunghezza
+//SNACK 2
 var lista_zucch = [
 
     zucch1 = {
@@ -66,17 +64,6 @@ var lista_zucch = [
 ];
 
 
-
-
-//calcola peso di tutte le zucchine
-var pesoTot = 0;
-for (var i=0; i<lista_zucch.length; i++){
-    pesoTot += lista_zucch[i].peso;
-}
-console.log(pesoTot);
-
-
-//SNACK 2
 //dividi in due array le zucchine in base alla lunghezza 
 //(< o > di 15)
 var array1 = [];
