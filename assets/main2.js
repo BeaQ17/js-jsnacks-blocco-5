@@ -79,3 +79,17 @@ for (var i=0; i<lista_zucch.length; i++){
 
 console.log(array1);
 console.log(array2);
+
+
+//somma separatamente i pesi
+var somma1 = 0;
+for (var i=0; i<array1.length; i++){
+    somma1 += array1[i].peso;
+}
+console.log(somma1);
+
+var somma2 = 0;
+for (var i=0; i<array2.length; i++){
+    somma2 += array2[i].peso;
+}
+console.log(somma2);
