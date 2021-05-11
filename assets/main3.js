@@ -1,8 +1,13 @@
 //SNACK 3
 function reverseWord (word){
-    return word.split('').reverse().join('');
+    var parola = "";
+    for (var i = (word.length - 1); i>=0; i--){
+        parola += word[i];
+    }
+    return parola
 }
-reverseWord("Hello");
-console.log(reverseWord);
+
+console.log(reverseWord("Hello"));
+
 
 //ISSUE - this doesn't work
